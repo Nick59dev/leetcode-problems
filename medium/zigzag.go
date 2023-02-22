@@ -19,8 +19,6 @@ func convert(s string, numRows int) string {
             step *= -1
         }
 
-        fmt.Println(point)
-
         filter[point] = append(filter[point], rune(x))
         point += step
     }
